@@ -77,7 +77,7 @@ BAZARS.forEach(b => {
               <div class="bazar-times">Open: ${b.open}</div>
           </div>
           <div class="meta">
-              <div class="label">Opens In</div>
+              
               <div class="timer" id="timer-${b.id}">--:--:--</div>
           </div>
       </div>
@@ -201,3 +201,4 @@ document.getElementById("saveBtn")?.addEventListener("click", async () => {
 
   alert("Results Updated Successfully!");
 });
+
